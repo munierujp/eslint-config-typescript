@@ -14,6 +14,7 @@ ESLint Shareable Config for TypeScript
 - [eslint-plugin-eslint-comments](https://www.npmjs.com/package/eslint-plugin-eslint-comments)
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 - [eslint-plugin-import-newlines](https://www.npmjs.com/package/eslint-plugin-impor-newlines)
+- [eslint-plugin-jsdoc](https://www.npmjs.com/package/eslint-plugin-jsdoc)
 - [eslint-plugin-n](https://www.npmjs.com/package/eslint-plugin-n)
 - [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise)
 - [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)
@@ -44,6 +45,7 @@ npm i -D \
   eslint-plugin-eslint-comments \
   eslint-plugin-import \
   eslint-plugin-import-newlines \
+  eslint-plugin-jsdoc \
   eslint-plugin-n \
   eslint-plugin-promise \
   eslint-plugin-unicorn \
