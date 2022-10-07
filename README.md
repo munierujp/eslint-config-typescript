@@ -10,7 +10,7 @@ ESLint Shareable Config for TypeScript
 - [@eslint-recommended/eslint-config-typescript](https://www.npmjs.com/package/@eslint-recommended/eslint-config-typescript)
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
 - [eslint](https://www.npmjs.com/package/eslint)
-- [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard)
+- [eslint-config-standard-with-typescript](https://www.npmjs.com/package/eslint-config-standard-with-typescript)
 - [eslint-plugin-eslint-comments](https://www.npmjs.com/package/eslint-plugin-eslint-comments)
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 - [eslint-plugin-import-newlines](https://www.npmjs.com/package/eslint-plugin-impor-newlines)
@@ -39,7 +39,7 @@ Install `@munierujp/eslint-config-typescript` and its peer dependencies.
 npm i -D \
   @eslint-recommended/eslint-config \
   eslint \
-  eslint-config-standard \
+  eslint-config-standard-with-typescript \
   eslint-plugin-eslint-comments \
   eslint-plugin-import \
   eslint-plugin-import-newlines \
