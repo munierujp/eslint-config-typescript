@@ -37,7 +37,8 @@ Install `@munierujp/eslint-config-typescript` and its peer dependencies.
 
 ```sh
 npm i -D \
-  @eslint-recommended/eslint-config \
+  @eslint-recommended/eslint-config-typescript \
+  @typescript-eslint/eslint-plugin \
   eslint \
   eslint-config-standard-with-typescript \
   eslint-plugin-eslint-comments \
@@ -46,6 +47,7 @@ npm i -D \
   eslint-plugin-n \
   eslint-plugin-promise \
   eslint-plugin-unicorn \
+  typescript \
   @munierujp/eslint-config-typescript
 ```
 
