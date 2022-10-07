@@ -1,0 +1,51 @@
+{
+  "name": "@munierujp/eslint-config-typescript",
+  "version": "1.0.1",
+  "description": "ESLint Shareable Config for JavaScript",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "peerDependencies": {
+    "@eslint-recommended/eslint-config-typescript": "^0.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "eslint": "^8.23.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-eslint-comments": "^3.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-import-newlines": "^1.2.0",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^44.0.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@eslint-recommended/eslint-config-typescript": "0.1.2",
+    "@typescript-eslint/eslint-plugin": "5.39.0",
+    "eslint": "8.24.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import-newlines": "1.2.3",
+    "eslint-plugin-n": "15.3.0",
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-unicorn": "44.0.2",
+    "typescript": "4.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munierujp/eslint-config-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/munierujp/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/munierujp/eslint-config-typescript",
+  "license": "MIT",
+  "dependencies": {}
+}
