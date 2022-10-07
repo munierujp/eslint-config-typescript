@@ -1,7 +1,7 @@
 {
   "name": "@munierujp/eslint-config-typescript",
   "version": "1.0.1",
-  "description": "ESLint Shareable Config for JavaScript",
+  "description": "ESLint Shareable Config for TypeScript",
   "scripts": {
     "lint": "eslint '**/*.js'",
     "prepublishOnly": "npm run lint"
