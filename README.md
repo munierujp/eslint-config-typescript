@@ -21,11 +21,9 @@ ESLint Shareable Config for TypeScript
 - [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)
 - [typescript](https://www.npmjs.com/package/typescript)
 
-## Usage
+## Installation
 
-### Install packages
-
-#### npm@>=7
+### npm@>=7
 
 Install `@munierujp/eslint-config-typescript`.
 
@@ -33,7 +31,7 @@ Install `@munierujp/eslint-config-typescript`.
 npm i -D @munierujp/eslint-config-typescript
 ```
 
-#### npm@<7
+### npm@<7
 
 Install `@munierujp/eslint-config-typescript` and its peer dependencies.
 
@@ -55,7 +53,7 @@ npm i -D \
   @munierujp/eslint-config-typescript
 ```
 
-### Use in ESLint config
+## Usage
 
 Add `@munierujp/eslint-config-typescript` to `extends` of your ESLint config.
 
