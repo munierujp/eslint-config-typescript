@@ -52,5 +52,11 @@
   },
   "homepage": "https://github.com/munierujp/eslint-config-typescript",
   "license": "MIT",
-  "dependencies": {}
+  "keywords": [
+    "config",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ]
 }
