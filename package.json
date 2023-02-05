@@ -13,7 +13,7 @@
     "node": ">=14"
   },
   "peerDependencies": {
-    "@eslint-recommended/eslint-config-typescript": "^6.0.0 || ^7.0.0",
+    "@eslint-recommended/eslint-config-typescript": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "eslint": "^8.23.1",
     "eslint-config-standard": "^17.0.0",
