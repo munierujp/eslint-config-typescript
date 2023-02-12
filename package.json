@@ -1,6 +1,6 @@
 {
   "name": "@munierujp/eslint-config-typescript",
-  "version": "16.0.1",
+  "version": "17.0.0",
   "description": "ESLint Shareable Config for TypeScript",
   "scripts": {
     "lint": "eslint '**/*.js'",
