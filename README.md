@@ -5,6 +5,13 @@
 
 ESLint Shareable Config for TypeScript
 
+## Overview
+
+`@munierujp/eslint-config-typescript` is using following configurations and plugins.
+
+- [@eslint-recommended/eslint-config-typescript](https://www.npmjs.com/package/@eslint-recommended/eslint-config-typescript)
+- [eslint-plugin-import-newlines](https://www.npmjs.com/package/eslint-plugin-import-newlines)
+
 ## Installation
 
 Install `@munierujp/eslint-config-typescript`.
