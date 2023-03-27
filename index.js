@@ -1,3 +1,8 @@
+// @ts-check
+
+/** @typedef {import('eslint').ESLint.ConfigData} ConfigData */
+
+/** @type {ConfigData['rules']} */
 const unicornRules = {
   // ファイル名のケースはものによって異なる（関数はローワーキャメルケース、クラスはアッパーキャメルケースなど）ので無効化
   'unicorn/filename-case': 'off',
@@ -21,6 +26,7 @@ const unicornRules = {
   'unicorn/switch-case-braces': ['error', 'avoid']
 }
 
+/** @type {ConfigData['rules']} */
 const importRules = {
   // 標準のソートを無効化
   'sort-imports': 'off',
@@ -38,7 +44,11 @@ const importRules = {
   }]
 }
 
-module.exports = {
+/**
+ * @type {ConfigData}
+ * @see https://eslint.org/docs/latest/use/configure/configuration-files
+ */
+const config = {
   extends: [
     '@eslint-recommended/eslint-config-typescript'
   ],
@@ -50,3 +60,5 @@ module.exports = {
     ...importRules
   }
 }
+
+module.exports = config
