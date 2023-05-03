@@ -6,29 +6,32 @@
 
 ESLint Shareable Config for TypeScript
 
-## Overview
-
-`@munierujp/eslint-config-typescript` is using following configurations and plugins.
-
-- [@eslint-recommended/eslint-config-typescript](https://www.npmjs.com/package/@eslint-recommended/eslint-config-typescript)
-- [eslint-plugin-import-newlines](https://www.npmjs.com/package/eslint-plugin-import-newlines)
-
 ## Installation
 
-Install `@munierujp/eslint-config-typescript`.
+npm:
 
 ```sh
 npm i -D @munierujp/eslint-config-typescript
+```
+
+Yarn:
+
+```sh
+yarn add -D @munierujp/eslint-config-typescript
 ```
 
 ## Usage
 
 Add `@munierujp/eslint-config-typescript` to `extends` of your ESLint config.
 
-```json
-{
-  "extends": [
-    "@munierujp/eslint-config-typescript"
-  ]
+```js
+module.exports = {
+  extends: [
+    '"@munierujp/eslint-config-typescript'
+    // add other rulesets here if needed
+  ],
+  rules: {
+    // override/add rules settings here if needed
+  }
 }
 ```
