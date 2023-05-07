@@ -27,7 +27,7 @@ Add `@munierujp/eslint-config-typescript` to `extends` of your ESLint config.
 ```js
 module.exports = {
   extends: [
-    '"@munierujp/eslint-config-typescript'
+    '@munierujp/eslint-config-typescript'
     // add other rulesets here if needed
   ],
   rules: {
