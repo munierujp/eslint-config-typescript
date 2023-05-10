@@ -13,8 +13,6 @@ const unicornRules = {
   'unicorn/no-useless-undefined': 'off',
   // 数値を 1_000 のように書くと読みやすいケースもあるもののそうではないケースもあるので無効化
   'unicorn/numeric-separators-style': 'off',
-  // 完全にESMにはできないので無効化
-  'unicorn/prefer-module': 'off',
   // セレクタによって要素の取得メソッドを使いわけるのは理にかなっているので無効化
   'unicorn/prefer-query-selector': 'off',
   // Array.from() を使うのは理にかなっているので無効化
@@ -60,4 +58,5 @@ const config = {
   }
 }
 
+// eslint-disable-next-line unicorn/prefer-module
 module.exports = config
