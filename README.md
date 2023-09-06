@@ -35,3 +35,9 @@ module.exports = {
   }
 }
 ```
+
+## Related packages
+
+- [@munierujp/eslint-config](https://www.npmjs.com/package/@munierujp/eslint-config)
+
+
