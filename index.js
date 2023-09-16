@@ -24,6 +24,12 @@ const unicornRules = {
 }
 
 /** @type {ConfigData['rules']} */
+const sonarjsRules = {
+  // 同じ文字列だからといって必ずしも共通化すべきとは限らないので無効化
+  'sonarjs/no-duplicate-string': 'off'
+}
+
+/** @type {ConfigData['rules']} */
 const importRules = {
   // 標準のソートを無効化
   'sort-imports': 'off',
@@ -54,6 +60,7 @@ const config = {
   ],
   rules: {
     ...unicornRules,
+    ...sonarjsRules,
     ...importRules
   }
 }
