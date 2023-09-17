@@ -19,7 +19,7 @@
     "typescript": "*"
   },
   "devDependencies": {
-    "@eslint-recommended/eslint-config-typescript": "30.0.2",
+    "@eslint-recommended/eslint-config-typescript": "30.0.3",
     "eslint": "8.49.0",
     "eslint-plugin-import-newlines": "1.3.4",
     "typescript": "5.2.2"
