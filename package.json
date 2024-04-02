@@ -13,13 +13,13 @@
     "node": ">=18"
   },
   "peerDependencies": {
-    "@eslint-recommended/eslint-config-typescript": "^30.0.0",
+    "@eslint-recommended/eslint-config-typescript": "^34.0.0",
     "eslint": "^8.23.1",
     "eslint-plugin-import-newlines": "^1.2.0",
     "typescript": "*"
   },
   "devDependencies": {
-    "@eslint-recommended/eslint-config-typescript": "30.0.3",
+    "@eslint-recommended/eslint-config-typescript": "34.0.0",
     "eslint": "8.57.0",
     "eslint-plugin-import-newlines": "1.4.0",
     "typescript": "5.4.3"
