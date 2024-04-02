@@ -1,5 +1,4 @@
 [![npm version](https://badge.fury.io/js/%40munierujp%2Feslint-config-typescript.svg)](https://badge.fury.io/js/%40munierujp%2Feslint-config-typescript)
-[![lint](https://github.com/munierujp/eslint-config-typescript/actions/workflows/lint.yml/badge.svg)](https://github.com/munierujp/eslint-config-typescript/actions/workflows/lint.yml)
 [![ESLint Recommended](https://img.shields.io/badge/eslint-recommended-%234B32C3)](https://github.com/eslint-recommended)
 
 # @munierujp/eslint-config-typescript
@@ -39,5 +38,3 @@ module.exports = {
 ## Related packages
 
 - [@munierujp/eslint-config](https://www.npmjs.com/package/@munierujp/eslint-config)
-
-
