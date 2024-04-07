@@ -2,6 +2,10 @@
   "name": "@munierujp/eslint-config-typescript",
   "version": "30.0.0",
   "description": "ESLint Shareable Config for TypeScript",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "prepublishOnly": "npm run lint"
+  },
   "files": [
     "index.js"
   ],
