@@ -3,7 +3,7 @@
   "version": "42.0.0",
   "description": "ESLint Shareable Config for TypeScript",
   "scripts": {
-    "lint": "eslint '**/*.js'",
+    "lint": "eslint '**/*.{js,ts}'",
     "prepublishOnly": "npm run lint"
   },
   "files": [
@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config-typescript": "47.0.0",
+    "@tsconfig/node18": "18.2.4",
+    "@types/node": "18.0.0",
     "eslint": "8.57.0",
     "eslint-plugin-import-newlines": "1.4.0",
     "typescript": "5.4.5"
