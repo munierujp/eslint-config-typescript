@@ -37,7 +37,7 @@ const sonarjsRules = {
 }
 
 /**
- * Rules for imports
+ * Rules for import styles
  * @type {ConfigData['rules']}
  */
 const importRules = {
