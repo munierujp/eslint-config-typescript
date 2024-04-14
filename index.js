@@ -1,9 +1,12 @@
 // @ts-check
 
-// eslint-disable-next-line jsdoc/valid-types -- https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html
 /** @typedef {import('eslint').ESLint.ConfigData} ConfigData */
 
-/** @type {ConfigData['rules']} */
+/**
+ * Rules of {@link https://www.npmjs.com/package/eslint-plugin-unicorn|eslint-plugin-unicorn}
+ * @type {ConfigData['rules']}
+ * @see https://www.npmjs.com/package/eslint-plugin-unicorn
+ */
 const unicornRules = {
   // ファイル名のケースはものによって異なる（関数はローワーキャメルケース、クラスはアッパーキャメルケースなど）ので無効化
   'unicorn/filename-case': 'off',
@@ -23,13 +26,20 @@ const unicornRules = {
   'unicorn/switch-case-braces': ['error', 'avoid']
 }
 
-/** @type {ConfigData['rules']} */
+/**
+ * Rules of {@link https://www.npmjs.com/package/eslint-plugin-sonarjs|eslint-plugin-sonarjs}
+ * @type {ConfigData['rules']}
+ * @see https://www.npmjs.com/package/eslint-plugin-sonarjs
+ */
 const sonarjsRules = {
   // 同じ文字列だからといって必ずしも共通化すべきとは限らないので無効化
   'sonarjs/no-duplicate-string': 'off'
 }
 
-/** @type {ConfigData['rules']} */
+/**
+ * Rules for import styles
+ * @type {ConfigData['rules']}
+ */
 const importRules = {
   // 標準のソートを無効化
   'sort-imports': 'off',
@@ -49,7 +59,7 @@ const importRules = {
 
 /**
  * @type {ConfigData}
- * @see https://eslint.org/docs/latest/use/configure/configuration-files
+ * @see https://eslint.org/docs/latest/use/configure/configuration-files-deprecated
  */
 const config = {
   extends: [
