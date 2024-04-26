@@ -10,7 +10,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "peerDependencies": {
     "@eslint-recommended/eslint-config-typescript": "^47.0.0",
