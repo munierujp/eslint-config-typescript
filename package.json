@@ -14,7 +14,7 @@
   },
   "peerDependencies": {
     "@eslint-recommended/eslint-config-typescript": "^47.0.0",
-    "eslint": "^8.23.1",
+    "eslint": "^8.23.1 || ^9.0.0",
     "eslint-plugin-import-newlines": "^1.2.0",
     "typescript": "*"
   },
@@ -22,7 +22,7 @@
     "@eslint-recommended/eslint-config-typescript": "47.2.0",
     "@tsconfig/node20": "20.1.4",
     "@types/node": "20.12.10",
-    "eslint": "8.57.0",
+    "eslint": "9.2.0",
     "eslint-plugin-import-newlines": "1.4.0",
     "typescript": "5.4.5"
   },
