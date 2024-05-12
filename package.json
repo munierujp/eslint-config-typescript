@@ -3,7 +3,7 @@
   "version": "44.0.0",
   "description": "ESLint Shareable Config for TypeScript",
   "scripts": {
-    "lint": "eslint '**/*.{js,ts}'",
+    "lint": "eslint '**/*.{js,mjs,cjs,ts,mts,cts}'",
     "prepublishOnly": "npm run lint"
   },
   "files": [
