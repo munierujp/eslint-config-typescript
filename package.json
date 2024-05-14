@@ -21,7 +21,7 @@
   "devDependencies": {
     "@eslint-recommended/eslint-config-typescript": "49.0.0",
     "@tsconfig/node20": "20.1.4",
-    "@types/node": "20.12.11",
+    "@types/node": "20.12.12",
     "eslint": "8.57.0",
     "eslint-plugin-import-newlines": "1.4.0",
     "typescript": "5.4.5"
