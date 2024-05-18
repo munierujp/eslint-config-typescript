@@ -27,7 +27,7 @@ yarn add -D @munierujp/eslint-config-typescript
 
 ## Usage
 
-Add `@munierujp/eslint-config-typescript` to `extends` of your ESLint config.
+Add `@munierujp/eslint-config-typescript` to the `extends` section of your [ESLint configuration file](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated).
 
 ```js
 module.exports = {
