@@ -25,19 +25,43 @@ Yarn:
 yarn add -D @munierujp/eslint-config-typescript
 ```
 
+pnpm:
+
+```sh
+pnpm add -D @munierujp/eslint-config-typescript
+```
+
 ## Usage
 
 Add `@munierujp/eslint-config-typescript` to the `extends` section of your [ESLint configuration file](https://eslint.org/docs/latest/use/configure/configuration-files-deprecated).
 
-```js
+JavaScript:
+
+```javascript
 module.exports = {
   extends: [
     '@munierujp/eslint-config-typescript'
     // add other rulesets here if needed
-  ],
-  rules: {
-    // override/add rules settings here if needed
-  }
+  ]
+}
+```
+
+YAML:
+
+```yaml
+extends:
+  - @munierujp/eslint-config-typescript
+  # add other rulesets here if needed
+```
+
+JSON:
+
+```jsonc
+{
+  "extends": [
+    "@munierujp/eslint-config-typescript"
+    // add other rulesets here if needed
+  ]
 }
 ```
 
