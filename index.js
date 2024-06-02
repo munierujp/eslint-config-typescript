@@ -8,8 +8,6 @@
  * @see https://www.npmjs.com/package/eslint-plugin-unicorn
  */
 const unicornRules = {
-  // eslint-plugin-regexp と競合するので無効化
-  'unicorn/better-regex': 'off',
   // ファイル名のケースはものによって異なる（関数はローワーキャメルケース、クラスはアッパーキャメルケースなど）ので無効化
   'unicorn/filename-case': 'off',
   // Array.prototype.forEach() を使うのは理にかなっているので無効化
@@ -65,8 +63,7 @@ const importRules = {
  */
 const config = {
   extends: [
-    '@eslint-recommended/eslint-config-typescript',
-    'plugin:regexp/recommended'
+    '@eslint-recommended/eslint-config-typescript'
   ],
   plugins: [
     'import-newlines'
